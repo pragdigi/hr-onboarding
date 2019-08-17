@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "onboarding-hr-client-side-solution",
+    "id": "fb2b5e6f-7d26-4cb9-bb49-67d0b9ab2b53",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/onboarding-hr.sppkg"
+  }
+}

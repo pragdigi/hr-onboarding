@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "onboarding-hr-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/onboardingHr/OnboardingHrWebPart.js",
+          "manifest": "./src/webparts/onboardingHr/OnboardingHrWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "OnboardingHrWebPartStrings": "lib/webparts/onboardingHr/loc/{locale}.js"
+  }
+}

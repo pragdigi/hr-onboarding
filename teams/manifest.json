@@ -1,0 +1,47 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.2/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.2",
+    "packageName": "OnboardingHrWebPart",
+    "id": "88e01e99-eae9-42cd-b6c6-75d13b27f0c7",
+    "version": "0.1",
+    "developer": {
+      "name": "Pragdigi Solutions",
+      "websiteUrl": "https://products.office.com/en-us/sharepoint/collaboration",
+      "privacyUrl": "https://privacy.microsoft.com/en-us/privacystatement",
+      "termsOfUseUrl": "https://www.microsoft.com/en-us/servicesagreement"
+    },
+    "name": {
+      "short": "SPFx Teams Together"
+    },
+    "description": {
+      "short": "Onboarding - HR Team",
+      "full": "Onboarding Process - Human Resources Team"
+    },
+    "icons": {
+      "outline": "88e01e99-eae9-42cd-b6c6-75d13b27f0c7_outline.png",
+      "color": "88e01e99-eae9-42cd-b6c6-75d13b27f0c7_color.png"
+    },
+    "accentColor": "#004578",
+    "configurableTabs": [
+      {
+        "configurationUrl": "https://pragdigi.sharepoint.com/sites/hr2/_layouts/15/TeamsLogon.aspx?SPFX=true&dest={teamSitePath}/_layouts/15/teamshostedapp.aspx%3FopenPropertyPane=true%26teams%26componentId=88e01e99-eae9-42cd-b6c6-75d13b27f0c7%26forceLocale={locale}",
+        "canUpdateConfiguration": true,
+        "scopes": [
+          "team"
+        ]
+      }
+    ],
+    "validDomains": [
+      "*.login.microsoftonline.com",
+      "*.sharepoint.com",
+      "*.sharepoint-df.com",
+      "spoppe-a.akamaihd.net",
+      "spoprod-a.akamaihd.net",
+      "resourceseng.blob.core.windows.net",
+      "msft.spoppe.com"
+    ],
+    "webApplicationInfo": {
+      "resource": "https://{teamSiteDomain}",
+      "id": "00000003-0000-0ff1-ce00-000000000000"
+    }
+  }
